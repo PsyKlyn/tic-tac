@@ -258,30 +258,6 @@ int playerInput(){
      scanf("%d %c" , &player2 , &o);
      maintic(player1 , x ,player2 , o);
      winCheck();
-//EIGHTH
-     printf(RED"Player 1 turn : " RESET);
-     scanf("%d %c", &player1 , &x);
-     maintic(player1, x , player2 , o);
-     winCheck();
-     drawCheck();
-     
-     printf(GREEN"Player 2 turn : " RESET);
-     scanf("%d %c" , &player2 , &o);
-     maintic(player1 , x ,player2 , o);
-     winCheck();
-     drawCheck();
-//NINTH
-     printf(RED"Player 1 turn : " RESET);
-     scanf("%d %c", &player1 , &x);
-     maintic(player1, x , player2 , o);
-     winCheck();
-     drawCheck();
-     
-     printf(GREEN "Player 2 turn : " RESET);
-     scanf("%d %c", &player2 , &o);
-     maintic(player1 , x ,player2 , o);
-     winCheck();
-     drawCheck();
      
      return 0 ;
 }
